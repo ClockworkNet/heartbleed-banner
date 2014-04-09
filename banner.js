@@ -1,3 +1,5 @@
+(function(){
+
 //Retreiving Cookies
 function getCookie(c_name)
 {
@@ -51,3 +53,5 @@ if(getCookie('display_heartbleed_message')){
 	document.body.insertBefore(fragment, document.body.childNodes[0]);
 	setCookie('display_heartbleed_message', 'true', 7, '/', '', '');
 }
+
+})();
